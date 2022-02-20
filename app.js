@@ -20,13 +20,6 @@ function updateInput(product, price, isAdding) {
     const totalPriceTag = document.getElementById('total-price');
     totalPriceTag.innerText = parseFloat(subTotal.innerText) + parseFloat(taxTag.innerText);
 }
-// // inner Text value
-// function document.getElementById(fieldId) {
-//     const getTag = document.getElementById(fieldId);
-//     const tagInnerText = getTag.innerText;
-//     const innerTextValue = parseFloat(tagInnerText);
-//     return innerTextValue;
-// }
 // calculate subtotal
 function calculate() {
     const phoneTotal = document.getElementById('phone-total');
